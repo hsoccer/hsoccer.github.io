@@ -9,8 +9,6 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
-<!-- Bibsearch Feature -->
-
 <div class="publications">
   
   <h2>Published Papers</h2>

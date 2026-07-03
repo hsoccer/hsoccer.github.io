@@ -22,6 +22,7 @@ nav_order: 4
 <br>
 <strong style="color:var(--global-theme-color);">研究</strong>
 - <a href="https://scholar.google.co.jp/citations?user=mlRYhdoAAAAJ&hl=ja">Google Scholar</a> <br>
+- <a href="https://researchmap.jp/haruki_kono">researchmap</a> <br>
 
 <br>
 <strong style="color:var(--global-theme-color);">学位</strong>

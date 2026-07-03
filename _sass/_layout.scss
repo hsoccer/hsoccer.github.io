@@ -51,6 +51,16 @@ body.sticky-bottom-footer {
 // Publications layout is defined in _includes/bib_search.liquid
 // Uses jekyll-scholar for BibTeX parsing and Bootstrap cards for display
 
+// /* Squeeze the vertical gaps between papers */
+// .publications .row {
+//   margin-bottom: 0.4rem !important;
+// }
+
+// /* Hide the light year text on the right */
+// .publications .year {
+//   display: none !important;
+// }
+
 /*****************************************************************************
 * Projects
 *****************************************************************************/

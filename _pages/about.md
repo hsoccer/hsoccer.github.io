@@ -26,6 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+
 I am currently an Assistant Professor at the [Institute of Economic Research](https://www.ier.hit-u.ac.jp/English/), [Hitotsubashi University](https://www.hit-u.ac.jp/eng/).
 
 Broadly, my research focuses on econometric and statistical theory.
