@@ -128,10 +128,10 @@ lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -158,17 +158,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
+external_sources: [] # Template feeds are intentionally disabled.
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -183,17 +173,7 @@ newsletter:
 # Collections
 # -----------------------------------------------------------------------------
 
-collections:
-  books:
-    output: true
-  news:
-    defaults:
-      layout: post
-    output: true
-  projects:
-    output: true
-  teachings:
-    output: true
+collections: {} # No sample books, news, projects, or courses.
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -217,6 +197,14 @@ include: ["_pages"]
 exclude:
   - al-folio-upgrade-report.md
   - bin/
+  - test/
+  - test-results/
+  - playwright-report/
+  - AGENTS.md
+  - CLAUDE.md
+  - requirements.txt
+  - assets/video/tutorial_al_folio.mp4
+  - assets/img/template_error.png
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
@@ -228,13 +216,10 @@ exclude:
   - Gemfile.lock
   - INSTALL.md
   - LICENSE
-  - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
-  - readme_preview/
   - gems/
   - migrations/
   - vendor
@@ -292,6 +277,10 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      path: "jm"
+    values:
+      sitemap: false
 
 sass:
   style: compressed
@@ -324,13 +313,13 @@ terser:
 
 jekyll-archives:
   posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    enabled: [] # enables year, tag and category archives (remove if you need to disable one of them).
     permalinks:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
   books:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    enabled: [] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
@@ -340,8 +329,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: []
+  first_name: []
 
   style: apa
   locale: en
@@ -683,9 +672,7 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+jekyll_get_json: [] # CV uses _data/cv.yml (RenderCV).
 
 jsonresume:
   - basics

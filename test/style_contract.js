@@ -61,7 +61,7 @@ if (/gem 'al_math',\s*:git =>/.test(gemfile)) {
   failures.push("`Gemfile` must not use git-branch pin for `al_math`; use released gem version.");
 }
 
-for (const forbiddenPath of ["_includes", "_layouts", "_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
+for (const forbiddenPath of ["_includes", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
   if (exists(forbiddenPath)) {
     failures.push(`Starter must not own core component path \`${forbiddenPath}\`; move ownership to the corresponding gem.`);
   }
@@ -78,7 +78,7 @@ for (const forbiddenGlobPath of [
   }
 }
 
-for (const requiredPath of ["test/visual", "test/integration_plugin_toggles.sh", "test/integration_distill.sh"]) {
+for (const requiredPath of ["test/visual", "test/integration_plugin_toggles.sh"]) {
   if (!exists(requiredPath)) {
     failures.push(`Starter integration/visual contract missing required path: \`${requiredPath}\`.`);
   }

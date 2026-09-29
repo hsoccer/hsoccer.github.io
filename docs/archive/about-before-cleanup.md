@@ -6,12 +6,11 @@ subtitle: #<a href='#'>IER</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: hkono.jpeg
+  image: hkono.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <a href="mailto:h.kono@r.hit-u.ac.jp">Email</a> <br>
-    <a href="https://scholar.google.co.jp/citations?user=mlRYhdoAAAAJ&hl=en">Google Scholar</a> <br>
-    <a href="https://www1.ier.hit-u.ac.jp/en/faculty/members/index/kono/">Faculty Profile</a>
+    <a href="https://scholar.google.co.jp/citations?user=mlRYhdoAAAAJ&hl=en">Google Scholar</a>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -29,7 +28,9 @@ latest_posts:
 
 
 I am currently an Assistant Professor at the [Institute of Economic Research](https://www.ier.hit-u.ac.jp/English/), [Hitotsubashi University](https://www.hit-u.ac.jp/eng/).
-
+ 
+<br>
 Broadly, my research focuses on econometric and statistical theory.
-
+ 
+<br>
 Prior to joining Hitotsubashi, I received my Ph.D. in Economics and Statistics from MIT. Before moving to the US, I earned my B.A. and M.A. in Economics from the University of Tokyo.

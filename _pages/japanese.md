@@ -12,6 +12,7 @@ nav_order: 4
 
 <strong style="color:var(--global-theme-color);">所属・連絡先</strong>
 - [一橋大学](https://www.hit-u.ac.jp/) [経済学研究所](https://www.ier.hit-u.ac.jp/Japanese/) 講師 (2026年7月~)
+- [教員紹介](https://www1.ier.hit-u.ac.jp/faculty/members/index/kono/)
 - Emali: <a href="mailto:h.kono@r.hit-u.ac.jp">h.kono@r.hit-u.ac.jp</a> <br>
 
 <br>
