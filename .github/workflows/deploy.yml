@@ -106,6 +106,7 @@ jobs:
       - name: Prepare static site for GitHub Pages
         run: |
           touch _site/.nojekyll
+          cp jm/central-limit-theorems-for-optimal-transport-functionals.pdf _site/jm/ot-inference.pdf
           for pdf in jm/*.pdf; do
             cmp "$pdf" "_site/$pdf"
           done
