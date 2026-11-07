@@ -30,6 +30,6 @@ latest_posts:
 
 I am currently an Assistant Professor at the [Institute of Economic Research](https://www.ier.hit-u.ac.jp/English/), [Hitotsubashi University](https://www.hit-u.ac.jp/eng/).
 
-Broadly, my research focuses on econometric and statistical theory.
+I am interested in econometric and statistical theory and its applications to real-world data and policy questions.
 
 Prior to joining Hitotsubashi, I received my Ph.D. in Economics and Statistics from MIT. Before moving to the US, I earned my B.A. and M.A. in Economics from the University of Tokyo.
